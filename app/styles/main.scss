@@ -20,6 +20,19 @@ html, body {
     width:800px;
     height: 600px;
 }
+.map-info-window{
+background:#333;
+   border-radius:4px;
+   box-shadow:8px 8px 16px #222;
+   color:#fff;
+   max-width:200px;
+   max-height:300px;
+   text-align:center;
+   padding:5px 20px 10px;
+   overflow:hidden;
+   position:absolute;
+   text-transform:uppercase;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
