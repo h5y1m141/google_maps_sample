@@ -11,11 +11,15 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 /* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
-
+#map-canvas {
+    width:800px;
+    height: 600px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -90,15 +94,3 @@ body {
     border-bottom: 0;
   }
 }
- .infoWindow 
- { 
-     font-size: 14px; 
-     background-color: #5599ff; 
-     border: 2px solid Blue; 
-     color: White; 
-     padding: 15px; 
-     display: none; 
-     position: absolute; 
-     width: 1px; 
-     height: 5px; 
- } 
